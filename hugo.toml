@@ -1,0 +1,24 @@
+baseURL = "https://jinsgeorge.dev/"
+languageCode = "en-us"
+title = "Jins George"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  homeInfoParams = { Title = "Hi, I'm Jins 👋", Content = "Welcome to my portfolio and blog" }
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  defaultTheme = "auto"
+  ShowShareButtons = true
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
